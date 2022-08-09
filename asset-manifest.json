@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mobilechatview/static/css/main.fca7b102.css",
+    "main.js": "/Mobilechatview/static/js/main.b606f07f.js",
+    "index.html": "/Mobilechatview/index.html",
+    "main.fca7b102.css.map": "/Mobilechatview/static/css/main.fca7b102.css.map",
+    "main.b606f07f.js.map": "/Mobilechatview/static/js/main.b606f07f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca7b102.css",
+    "static/js/main.b606f07f.js"
+  ]
+}

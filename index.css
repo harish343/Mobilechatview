@@ -1,0 +1,155 @@
+* { margin: 0px; padding: 0px; }
+body {
+	background: #f0f1f2;
+	font:12px "Open Sans", sans-serif; 
+}
+.onlinefriendbox{
+    display: flex;
+    background-color: e7ebee;
+    padding: 2px 0;
+    width: 342px;
+	font-size:13px;
+	font-weight:400;
+
+}
+
+.onlinefrienddimg{
+    width: 47px;
+    border-radius: 50%;
+    height: 60;
+    padding: 5px;
+    margin: 5px;
+}
+#chatbox{
+	width:350px;
+	background:#fff;
+	border-radius:6px;
+	overflow:hidden;
+	height:484px;
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-155px;
+}
+
+    #chatbox::-webkit-scrollbar {
+        width: 10px;
+      }
+      .onlinename{
+			padding-left: 19px;
+			padding-bottom: -5px;
+	  }
+    
+      #chatbox::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+    
+      #chatbox::-webkit-scrollbar-thumb {
+        background: rgb(95, 16, 16);
+      }
+      
+     
+      #chatbox::-webkit-scrollbar-thumb:hover {
+        background: rgb(105, 33, 33);
+      }
+   
+    #onlinefriendbox::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+    
+      #onlinefriendbox::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+   
+      #onlinefriendbox::-webkit-scrollbar-thumb {
+        background: rgb(95, 16, 16);
+      }
+      
+      
+      #onlinefriendbox::-webkit-scrollbar-thumb:hover {
+        background: rgb(105, 33, 33);
+      }
+
+#friendslist{
+	position:absolute;
+	top:0;
+	left:0;
+	width:350px;
+	height:484px;
+    
+  
+}
+#chatbox{
+    overflow-y: scroll;
+}
+.friend{
+	height:70px;
+	border-bottom:1px solid #e7ebee;		
+	position:relative;
+}
+.friend:hover{
+	background:#f1f4f6;
+	cursor:pointer;
+}
+.friend img{
+	width:40px;
+	border-radius:50%;
+	margin:15px;
+	float:left;
+}
+.floatingImg{
+	width:40px;
+	border-radius:50%;
+	position:absolute;
+	top:0;
+	left:12px;
+	border:3px solid #fff;
+}
+.friend p{
+	padding:15px 0 0 0;			
+	float:left;
+	width:220px;
+}
+.friend p strong{
+  font-weight:600;
+  font-size:15px;
+	color:#597a96;  
+
+}
+.friend p span{
+	font-size:13px;
+	font-weight:400;
+	color:#aab8c2;
+}
+.friend .status{
+	background:#26c281;
+	border-radius:50%;	
+	width:9px;
+	height:9px;
+	position:absolute;
+	top:31px;
+	right:17px;
+}
+
+#search{
+	background:#e3e9ed url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/search.png") -11px 0 no-repeat;
+	height:47px;
+	width:350px;
+	
+}
+#searchfield{
+	background:#e3e9ed;
+	margin:15px 0 0 55px;
+	border:none;
+	padding:0;
+	font-size:14px;
+	font-family:"Open Sans", sans-serif; 
+	font-weight:400px;
+	color:#8198ac;
+}
+#searchfield:focus{
+	 outline: 0;
+}
